@@ -1,0 +1,21 @@
+<div id="app" class="form">
+  <h2>大航海時代Origin</h2>
+  <b-tabs>
+    <b-tab title="船隻" active>
+
+      <div id="warp" class="container-fluid">
+        <ship v-for="entry in entries" :entry="entry"></ship>
+      </div>
+    </b-tab>
+    <b-tab title="地圖">
+ 
+       
+    </b-tab>
+    <b-tab title="人物">
+      <div id="warp" class="container-fluid">
+        <sailor v-for="entry in entries2" :entry="entry"></sailor> 
+      </div>
+    </b-tab>
+  </b-tabs>
+
+</div>
