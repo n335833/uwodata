@@ -8,7 +8,6 @@ var sheetUrl2 =
 new Vue({
   el: "#app",
   data: {
-    test: "[123,223]",
     entries: null,
     entries2: null
   },
