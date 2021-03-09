@@ -1,4 +1,35 @@
-<div id="app" class="form">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js tree view example</title>
+    <style>
+      body {
+        font-family: Menlo, Consolas, monospace;
+        color: #444;
+      }
+      .item {
+        cursor: pointer;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      ul {
+        padding-left: 1em;
+        line-height: 1.5em;
+        list-style-type: dot;
+      }
+    </style>
+    <!-- Delete ".min" for console warnings in development -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.21.2/bootstrap-vue.min.js"></script>
+  </head>
+  <body>
+
+    
+
+    <!-- the demo root element -->
+   <div id="app" class="form">
   <h2>大航海時代Origin</h2>
   <b-tabs>
     <b-tab title="船隻" active>
@@ -19,3 +50,9 @@
   </b-tabs>
 
 </div>
+
+    <!-- demo code -->
+    <script src="script.js"></script>
+  </body>
+</html>
+
